@@ -1,5 +1,6 @@
 <?php
 require_once "template/header.php"
+
 ?>
 
 <?php
@@ -85,7 +86,9 @@ function rano()
             </div>
 </div>
 
-
+<div class="container">
+    <?php include "./Utils/get_tasks2.php"?>
+</div>
 
             <?php
             require_once "template/footer.php";
